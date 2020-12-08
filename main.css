@@ -24,7 +24,7 @@ body {
 }
 .middle-section {
     height: 300px;
-    background-color: #2d2e46;
+    background-color:#002847;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -42,8 +42,8 @@ body {
     width: 100%;
     background-image: url(./imgs/What-Is-Kratom.jpg);
     background-repeat: no-repeat;
-    background-position: right;
-    background-color: #c53b5a;
+    background-position: center;
+    background-color: #002847;
 }
 .footer {
     height: 500px;
@@ -113,9 +113,12 @@ body {
     border-right: 0;
     border-left: 0;
     height: 50px;
+    font-size: 28px;
   }
   .newsletter input:focus {
       border-radius: 0px;
       border-width: 0px;
-      
+      background-color: #f79421;
+      opacity: 0.4;
+      font-size: 32px;
   }
